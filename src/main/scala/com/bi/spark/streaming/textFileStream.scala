@@ -1,7 +1,7 @@
 package com.bi.spark.streaming
 
-import com.bi.spark.streaming.BaseS.getStreamingContext
-import BaseS._
+import com.bi.spark.streaming.Base.getStreamingContext
+import Base._
 
 object textFileStream {
   def main(args: Array[String]): Unit = {

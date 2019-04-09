@@ -1,6 +1,6 @@
 package com.bi.spark.streaming
 
-import BaseS._
+import Base._
 import org.apache.spark.storage.StorageLevel
 object socketStream {
 
