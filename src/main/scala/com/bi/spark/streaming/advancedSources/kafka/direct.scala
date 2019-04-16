@@ -20,6 +20,7 @@ object direct {
     val wordCounts = words.map(x => (x, 1L)).reduceByKey(_ + _)
     wordCounts.print()
 
+
     ssc.start()
     ssc.awaitTermination()
   }
